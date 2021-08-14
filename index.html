@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUMBO</title>
+  <!-- Font-Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Style-Sheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- HEADER START -->
+<header id="start">
+  <div class="container">
+    <div class="header__navbar">
+      <div class="header__logo">
+        <img class="header__logo-img" src="img/logo.png" alt="LOGO">
+      </div>
+      <div id="header__menu">
+        <ul class="header__list">
+          <li class="header__item"><a class="header__item-link" href="#start">Inicio</a></li>
+          <li class="header__item"><a class="header__item-link" href="#plans">Planes</a></li>
+          <li class="header__item"><a class="header__item-link" href="#destiny">Destinos</a></li>
+          <li class="header__item"><a class="header__item-link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header__first-cont">
+      <img class="header__compass-ico" data-aos="zoom-in-up" data-aos-duration="2000" src="img/brujula.png" alt="BRUJULA">
+      <h1 class="header__business-name" data-aos="zoom-in-up" data-aos-duration="2000" >RUMBO</h1>
+      <p class="header__slogan" data-aos="zoom-in-up" data-aos-duration="2000" >EL SITIO WEB DE TURISMO IDEAL PARA TI</p>
+      <div class="header__button">
+        <a class="header__start-button">EMPEZAR</a>
+      </div>
+    </div>
+  </div>  
+</header>
+<!-- END START -->
+
+<!-- START OF SECTIONS -->
+<!-- START PLANS -->
+<section class="plans" id="plans">
+  <div class="container">
+    <div class="plans__first-cont">
+      <h2 class="plans__title">PLANES</h1>
+      <p class="plans__paragraph">En <b>RUMBO</b> tenemos los siguientes planes para ti <br>Selecciona el plan que más se ajuste a la experiencia que quieres vivir</p>
+    </div>
+    <div class="plans__second-cont">
+      <div class="plans__information-plans">
+        <div class="plans__cont-a" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000">
+          <h3 class="plans__cont-b">SENDERISMO</h3>
+        </div>
+        <div class="plans__cont-a" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000">
+          <h3 class="plans__cont-b">CANOTAJE</h3>
+        </div>
+        <div class="plans__cont-a" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000">
+          <h3 class="plans__cont-b">CAMPING</h3>
+        </div>
+      </div>
+      <div class="plans__description">
+        <p class="plans__description-paragraph">5 a 8 Personas <br>6 KM de ruta <br>150.000 Pesos <br>Precio por persona</p>
+        <p class="plans__description-paragraph">5 a 8 Personas <br>6 KM de ruta <br>150.000 Pesos <br>Precio por persona</p>
+        <p class="plans__description-paragraph">5 a 8 Personas <br>6 KM de ruta <br>150.000 Pesos <br>Precio por persona</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END PLANS -->
+
+<!-- START DESTINY -->
+<section class="destiny" id="destiny">
+  <div class="container">
+    <div class="destiny__first-cont">
+      <h2 class="destiny__title">DESTINOS</h2>
+    </div>
+    <div class="destiny__second-cont">
+      <div class="destiny__sites">
+        <div class="destiny__cont-a" data-aos="fade-up" data-aos-duration="3000">
+          <div class="destiny__cartagena">
+            <img class="destiny__image" src="img/cartagena.png" alt="IMG-CARTAGENA">
+            <h3 class="destiny__title-two">CARTAGENA</h3>
+          </div>
+          <div class="destiny__barranquilla">
+            <img class="destiny__image" src="img/barranquilla.png" alt="IMG-BARRANQUILLA">
+            <h3 class="destiny__title-two">BARRANQUILLA</h3>
+          </div>
+        </div>
+        <div class="destiny__cont-b" data-aos="fade-up" data-aos-duration="3000">
+          <div class="destiny__llanos-orientales">
+            <img class="destiny__image" src="img/llanos.png" alt="IMG-LLANOS">
+            <h3 class="destiny__title-two">LOS LLANOS</h3>
+          </div>
+          <div class="destiny__la-guajira">
+            <img class="destiny__image" src="img/laguajira.png" alt="IMG-GUAJIRA">
+            <h3 class="destiny__title-two">LA GUAJIRA</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END DESTINY -->
+
+<!-- START CONTACT -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="contact__all-cont">
+      <div class="contact__first-cont">
+        <h2 class="contact__title">CONTACTO</h2>
+        <p class="contact__paragraph">Comparte con nosotros tus datos de contacto y te enviaremos <br>toda la informacion de los medios de pago.</p>
+      </div>
+      <div class="contact__second-cont">
+        <form class="contact__form" action="contac">
+          <div class="contact__cont-a">
+            <input class="contact__section-form" type="text" name="Nombre" placeholder="Nombres: " required>
+            <input class="contact__section-form" type="number" name="Teléfono" placeholder="Teléfono" required>
+          </div>
+          <div class="contact__cont-b">
+            <input class="contact__section-form" type="email" name="Email" placeholder="Email: " required>
+            <select class="contact__section-form" class="" id="" name="Ciudad" aria-placeholder="Ciudad:">
+              <option value="">Ciudad... </option>
+              <option value="1">Bogotá</option>
+              <option value="2">Medellín</option>
+              <option value="3">Cali</option>
+              <option value="4">Barranquilla</option>
+              <option value="5">Cartagena de Indias</option>
+              <option value="6">Soacha</option>
+              <option value="7">Cúcuta</option>
+              <option value="8">Soledad</option>
+              <option value="9">Bucaramanga</option>
+              <option value="10">Bello</option>
+              <option value="11">Villavicencio</option>
+              <option value="12">Ibagué</option>
+              <option value="13">Santa Marta</option>
+              <option value="14">Valledupar</option>
+              <option value="#15">Manizales</option>
+              <option value="16">Pereira</option>
+              <option value="17">Montería</option>
+              <option value="18">Neiva</option>
+              <option value="19">Pasto</option>
+              <option value="20">Armenia</option>
+            </select>
+          </div>
+          <div class="contact__button">
+            <a class="contact__button-send" href="">ENVIAR</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END CONTACT -->
+<!-- END OF SECTIONS -->
+
+<!-- INICIO DE FOOTER -->
+<footer>
+  <div class="container">
+    <span class="footer__information">© Todos los derechos reservados</span>
+    <a class="footer__information footer__email" href="">contacto@rumba.com</a>
+    <span class="footer__information">+57 321 244 4445</span>
+    <span class="footer__information">Cr 90 #93 - 20</span>
+  </div>
+</footer>
+<!-- FIN DE FOOTER -->
+
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+</body>
+</html>
